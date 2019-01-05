@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* End Common Section */
+
+header {
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    color: #555;
+    font-size: 160%;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 130%;
+    font-weight: 600;
+    color: #555;
+}
+
+nav ul li a:hover {
+    color: #aaa;
+}
+
+/* End Navigation */
